@@ -1,0 +1,3 @@
+var n=document.body,e=0;function t(n,t){return new Promise(function(c){return n.addEventListener(t,function(){return c("It was ".concat(t," on the element: ")+"".concat(n.nodeName,", id: ").concat(n.id,"."),e++)})})}var c=function(t){n.insertAdjacentHTML("beforeend",'\n    <div class="message" style="top: '.concat(50*e,'px">').concat(t,"</div>\n  "))},o=document.getElementById("login"),d=document.getElementById("password"),i=document.getElementById("submit");t(o,"click").then(c),t(d,"click").then(c),t(i,"click").then(c),t(o,"input").then(c),t(d,"input").then(c),t(o,"blur").then(c),t(d,"blur").then(c),t(i,"blur").then(c);//# sourceMappingURL=index.ac8ff991.js.map
+
+//# sourceMappingURL=index.ac8ff991.js.map
